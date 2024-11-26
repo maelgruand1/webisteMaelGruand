@@ -3,47 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mael Gruand Compamny | Website</title>
+    <title>Maël Gruand Company | Website</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Lien vers le fichier Javascript -->
-    <script src="script.js"></script>
-    <div class="navbar">
-        <a href="#" data-section="home"><button>Home</button></a>
-        <a href="#" data-section="home"><button>About</button></a>
-        <a href="#" data-section="home"><button>Projects</button></a>
-    </div>
-
-
-
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Barre de navigation -->
+    <div class="navbar">
+        <a href="#home"><button type="button">Home</button></a>
+        <a href="#about"><button type="button">About</button></a>
+        <a href="#projects"><button type="button">Projects</button></a>
+    </div>
+
+    <!-- Contenu principal -->
     <main>
         <section id="home">
             <h2>Page d'accueil</h2>
-            <p>Bienvenue sur le site officiel de l'entreprise Mael Gruand Company</p>
-            <p>Vous aimeriez avoir un site web accéssible et à bas coût</p>
-            <p>Allez voir notre section de pricing</p>
+            <p>Bienvenue sur le site officiel de l'entreprise Maël Gruand Company</p>
+            <p>Vous aimeriez avoir un site web accessible et à bas coût ?</p>
+            <p>Découvrez notre section "Pricing" pour plus d'informations.</p>
         </section>
-        <section id="about">
 
-            <h2>A propos de nous</h2>
-            <p>Nous sommes une entreprise toute nouvelle dans la création de site web front-end (partie visible)</p>
+        <section id="about">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une entreprise récente spécialisée dans la création de sites web front-end (partie visible).</p>
             <ol class="avantages">
-                <li>On propose une création à un coût acceptable dépendant de votre fonction : Entreprise ou particulier</li>
-                <li>Nous vous proposons une création en utilisant les meuilleurs technologies web 
+                <li>Création de sites à des coûts compétitifs, adaptés aux entreprises et particuliers.</li>
+                <li>Utilisation des meilleures technologies web :
                     <ul class="languages">
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>JS</li>
+                        <li>JavaScript</li>
                     </ul>
                 </li>
             </ol>
-        
-
         </section>
-
-    
+        
+        <section id="projects">
+            <h2>Projets</h2>
+            <p>Bientôt disponible !</p>
+        </section>
     </main>
 
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Maël Gruand Company. Tous droits réservés.</p>
+        <p>Contact : <a href="mailto:maelgruandcompany@gmail.com">maelgruand@example.com</a></p>
+    </footer>
 </body>
 </html>

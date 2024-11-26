@@ -1,11 +1,64 @@
-section{
-    border: solid, 0px;
-    border-radius: 50px;
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
 }
-div.navbar{
-    color: white;
-    font-size: 15px;
-    background: fixed;
-    background-color: black;
-    padding: 25px;
+
+/* Barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.navbar button:hover {
+    background-color: #777;
+}
+
+/* Sections */
+.section {
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.section p, .section ol, .section ul {
+    text-align: left;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
 }
