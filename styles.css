@@ -35,7 +35,7 @@ body {
 }
 
 /* Sections */
-.section {
+section {
     padding: 50px;
     margin: 20px auto;
     max-width: 800px;
