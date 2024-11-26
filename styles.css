@@ -5,4 +5,7 @@ section{
 div.navbar{
     color: white;
     font-size: 15px;
+    background: fixed;
+    background-color: black;
+    padding: 25px;
 }
