@@ -10,23 +10,23 @@
 <body>
     <!-- Barre de navigation -->
     <div class="navbar">
-        <a href="#home"><button type="button">Home</button></a>
-        <a href="#about"><button type="button">About</button></a>
-        <a href="#projects"><button type="button">Projects</button></a>
+        <button data-section="home">Home</button>
+        <button data-section="about">About</button>
+        <button data-section="projects">Projects</button>
     </div>
 
     <!-- Contenu principal -->
     <main>
-        <section id="home">
+        <section id="home" class="section">
             <h2>Page d'accueil</h2>
-            <p>Bienvenue sur le site officiel de l'entreprise Maël Gruand Company</p>
+            <p>Bienvenue sur le site officiel de l'entreprise Maël Gruand Company.</p>
             <p>Vous aimeriez avoir un site web accessible et à bas coût ?</p>
             <p>Découvrez notre section "Pricing" pour plus d'informations.</p>
         </section>
 
-        <section id="about">
+        <section id="about" class="section">
             <h2>À propos de nous</h2>
-            <p>Nous sommes une entreprise récente spécialisée dans la création de sites web front-end (partie visible).</p>
+            <p>Nous sommes une entreprise spécialisée dans la création de sites web front-end (partie visible).</p>
             <ol class="avantages">
                 <li>Création de sites à des coûts compétitifs, adaptés aux entreprises et particuliers.</li>
                 <li>Utilisation des meilleures technologies web :
@@ -39,7 +39,7 @@
             </ol>
         </section>
         
-        <section id="projects">
+        <section id="projects" class="section">
             <h2>Projets</h2>
             <p>Bientôt disponible !</p>
         </section>
@@ -48,7 +48,7 @@
     <!-- Pied de page -->
     <footer>
         <p>&copy; 2024 Maël Gruand Company. Tous droits réservés.</p>
-        <p>Contact : <a href="mailto:maelgruandcompany@gmail.com">maelgruand@example.com</a></p>
+        <p>Contact : <a href="mailto:maelgruand@example.com">maelgruand@example.com</a></p>
     </footer>
 </body>
 </html>
